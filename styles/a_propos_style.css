@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header{
+    text-align: center;
+    background: #333
+}
+
+header h1{
+    color: white;
+    padding: 5%;
+    margin-bottom: 0px;
+    padding-bottom: 3%; 
+    background-color: #333;
+}
+
+header h1:hover{
+    color: lightsalmon
+}
+
+.topnav {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.topnav a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 1% 2%;
+    margin: 0.5%;
+    margin-bottom: 1%;
+    border: solid white 1px;
+}
+
+.topnav a:hover {
+    border: solid lightsalmon 1px;
+    color: lightsalmon;
+}

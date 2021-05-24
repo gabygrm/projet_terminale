@@ -1,0 +1,169 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body{
+    background-color: #333;
+    color: white;
+}
+
+img{
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    max-width: 100%;
+    height: auto;
+    margin-top: 1em;
+}
+
+header{
+    text-align: center;
+    background: #333
+}
+
+header h1{
+    padding: 5%;
+    margin-bottom: 0px;
+    padding-bottom: 3%;
+    background-color: #333;
+}
+
+header h1:hover{
+    color: lightsalmon
+}
+
+ul{
+    margin: auto;
+    background-color: #333;
+    margin-top: 1em;
+    margin-bottom: 20px;
+    border-radius: 50px 250px 50px 250px;
+    width: 77%;
+}
+
+h5{
+    background-color: #444;
+    color: white;
+    padding: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    max-width: 100%;
+    border-radius: 15px 15px 0px 0px;
+
+}
+
+h5:hover{
+    background-color: grey;
+}
+
+h1{
+    padding: 1em;
+    background-color: #222;
+    color: white;
+}
+
+ul li p{
+    padding-bottom: 1%;
+    padding-top: 1%;
+    text-align: center;
+}
+
+ul li{
+    list-style-type: none;
+    text-align: center;
+    position: inherit;
+    background-color: cornsilk;
+    white-space: nowrap;
+    border-radius: 15px;
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#image{
+    padding: 15%;
+    width: 100%;
+    height: 20%;
+    background-image: url("../img/background.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    color: black
+}
+
+.topnav {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.topnav a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 1% 2%;
+    margin: 0.5%;
+    margin-bottom: 1%;
+    border: solid white 1px;
+}
+
+.topnav a:hover {
+    border: solid lightsalmon 1px;
+    color: lightsalmon;
+}
+
+#chiffres{
+    background-color: #444;
+    padding: 5px;
+    text-align: center;
+    padding: 5%;
+    border-radius: 40px 40px 40px 40px;
+}
+
+#main_block{
+    width: 100%;
+    color: black;
+    margin: 1%;
+    padding: 5px;
+    
+}
+
+#courbes{
+    text-align: center;
+    display: block;
+    padding: 5%;
+    border-radius: 25px;
+
+}
+
+@media (min-width: 1300px){
+
+    #main_block{
+        display: inline-flex;
+        width: 97%;
+    }
+
+    #chiffres{
+        float: left;
+        width: 30%;
+    }
+
+    #courbes{
+        float: right;
+        width: 70%;
+        display: block;
+    }
+ 
+    ul li p{
+        padding-bottom: 5%;
+        padding-top: 5%;
+    }
+
+    ul{
+        padding: 10%;
+        border-radius: 25px 100px 25px 100px;
+    }
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Crypto Sim</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./styles/index_style.css">
+        <script src="cours.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <h1>Stonks Industries</h1>
+            <div class="topnav">
+                <a class="active" href="#home">Home</a>
+                <a href="a_propos.html">A Propos</a>
+            </div> 
+            
+        </header>
+        <div id="image">.</div>
+        <section id = "main_block">
+            <section id = "chiffres">
+                <h1>DERNIERES VALEURS</h1>
